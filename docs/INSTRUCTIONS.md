@@ -1,6 +1,6 @@
 # The Web is for Everyone
 
-Ontwerp en ontwikkel een voor iedereen toegankelijke en gebruiksvriendelijke website voor een opdrachtgever.
+Ontwerp en maak voor een opdrachtgever een interactieve toepassing die voor iedereen toegankelijk is.
 
 
 ## Context
