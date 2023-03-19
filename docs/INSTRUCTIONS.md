@@ -35,7 +35,7 @@ Ontwerp en maak een functionaliteit voor je opdrachtgever op basis van een _user
 2. Daarna voeg je CSS toe voor feedback voor de gebruiker en om de huisstijl toe te passen.
 3. Tot slot ga je client-side Javascript toevoegen om de User Experience te verbeteren.
 
-https://i0.wp.com/alistapart.com/wp-content/uploads/2012/07/m-m.jpg?w=960&ssl=1![image](https://user-images.githubusercontent.com/1391509/226204781-5594ea1b-56c3-45ac-87d4-56dd25e35e58.png)
+![image](https://user-images.githubusercontent.com/1391509/226204781-5594ea1b-56c3-45ac-87d4-56dd25e35e58.png)
 <small>The Chocolatey Layers of Progressive Enhancement</small>
 
 Voor deze opdracht doorloop je alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
