@@ -69,7 +69,7 @@ Maak een breakdown-schets waarin je de juiste HTML formulier-elementen die je no
 
 ### Bronnen ontwerpfase
 
-* [Wireflows: A UX Deliverable for Workflows and Apps](https://www.nngroup.com/articles/wireflows/)
+* [Wireframing User Flow with Wireflows](https://balsamiq.com/learn/articles/wireflows/)
 * [The Role of Enhancement in Web Design](https://www.nngroup.com/articles/enhancement/)
 * [The Input (Form Input) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
 * [The Form element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
