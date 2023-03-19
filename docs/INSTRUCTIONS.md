@@ -1,4 +1,4 @@
-# The Web is for Everyone
+# Interactive functionality
 
 Ontwerp en maak voor een opdrachtgever een interactieve toepassing die voor iedereen toegankelijk is.
 
