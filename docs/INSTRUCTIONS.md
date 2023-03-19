@@ -20,8 +20,7 @@ Tim Berners-Lee, de uitvinder van het internet zei: "_The power of the Web is in
 Één van de mooiste [principes](https://www.w3.org/DesignIssues/Principles.html) van het web is dat iedereen met een computer en een browser het web kan gebruik. [Het web is voor iedereen](https://www.youtube.com/watch?v=UMNFehJIi0E). 
 <br>Maar het web is geen gecontroleerde (programmeer) omgeving, je kan er gerust van uit gaan dat niemand precies hetzelfde te zien krijgt als wat jij in je browser ziet. Er zijn technische beperkingen, zoals afmetingen van de browser, grootte van het apparaat, manier van interactie, kwaliteit van de hardware, kwaliteit van het netwerk en er zijn mensen, allemaal verschillende mensen ...
 
-Het doel van deze opdracht is te leren hoe je een interactieve functionalteit kan ontwerpen en maken met behulp van _Progressive Enhancement_ zodat de website het altijd doet.
-
+Het doel van deze opdracht is te leren hoe je een interactieve functionalteit kan ontwerpen en maken met behulp van _Progressive Enhancement_ zodat de website voor iedereen toegankelijk is.
 
 
 ## Werkwijze
@@ -124,7 +123,7 @@ Focus sprint 9 - De focus van deze sprint ligt op Progressive Enhancement, toega
 
 Doel van deze opdracht:
 
-* je leert hoe je een interactieve functionalteit kan ontwerpen en maken met behulp van _Progressive Enhancement_ en _Feature Detection_ zodat de website het altijd doet.
+* je leert hoe je een interactieve functionalteit kan ontwerpen en maken met behulp van _Progressive Enhancement_ zodat de website voor iedereen toegankelijk is.
 
 Voor deze leertaak gelden de gedragscriteria:
 
