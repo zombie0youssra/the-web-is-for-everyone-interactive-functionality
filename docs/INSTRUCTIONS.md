@@ -31,9 +31,9 @@ Ontwerp en maak een functionaliteit voor je opdrachtgever op basis van een _user
 
 [Progressive enhancement](https://briefs.video/videos/is-progressive-enhancement-dead-yet/) is een _(coding) strategy_ waarmee je er voor kan zorgen dat je website het altijd doet. 
 
-1. Eerst bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. 
-2. Daarna voeg je CSS toe voor feedback voor de gebruiker en om de huisstijl toe te passen.
-3. Tot slot ga je client-side Javascript toevoegen om de User Experience te verbeteren.
+1. Content: Eerst bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. 
+2. Presentation: Daarna voeg je CSS toe voor feedback voor de gebruiker en om de huisstijl toe te passen.
+3. Client-side scripting: Tot slot ga je JavaScript (en CSS) toevoegen om de User Experience te verbeteren.
 
 ![image](https://user-images.githubusercontent.com/1391509/226204781-5594ea1b-56c3-45ac-87d4-56dd25e35e58.png)
 
