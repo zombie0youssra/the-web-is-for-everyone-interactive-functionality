@@ -46,7 +46,7 @@ In de analysefase kies je een User Story waar je aan gaat werken en bekijk je ho
 #### Sprintplanning
 1. Lees de instructies van deze leertaak zorgvuldig door.
 2. Bekijk de verschillende fases van de DLC en wat je per fase gaat doen.
-3. Bekijk de planning van sprint 9 op [programma.fdnd.nl](https://programma.fdnd.nl/data-driven-web/the-web-is-for-everyone) en wat je per week gaat doen
+3. Bekijk de planning van [sprint 9](https://programma.fdnd.nl/data-driven-web/the-web-is-for-everyone) en wat je per week gaat doen
 4. Bespreek wat je aan werk verwacht en maak aantekening. (wat komt je bekend voor, wat heb je al vaker gedaan of wat lijkt je lastig)
 
 #### User Stories
