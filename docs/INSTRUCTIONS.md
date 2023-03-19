@@ -28,9 +28,9 @@ Het doel van deze opdracht is te leren hoe je een interactieve functionalteit ka
 Ontwerp en maak een functionaliteit voor je opdrachtgever op basis van een _user story_. De _user story_ voor sprint 9 gaat over het posten van data met behulp van de REST-API. Je bouwt je website in 3 lagen, volgens het principe van _Progressive Enhancement_. 
 <br>[Progressive enhancement](https://briefs.video/videos/is-progressive-enhancement-dead-yet/) is een _(coding) strategy_ waarmee je er voor kan zorgen dat je website het altijd doet. 
 
-1. Content: Eerst bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. 
-2. Presentation: Daarna voeg je CSS toe voor feedback voor de gebruiker en om de huisstijl toe te passen.
-3. Client-side scripting: Tot slot ga je JavaScript (en CSS) toevoegen om de User Experience te verbeteren.
+1. Eerst bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. (Content layer)
+2. Daarna voeg je CSS toe voor feedback voor de gebruiker en om de huisstijl toe te passen. (Presentation layer)
+3. Tot slot ga je JavaScript (en CSS) toevoegen om de User Experience te verbeteren. (Client-side scripting)
 
 ![image](https://user-images.githubusercontent.com/1391509/226204781-5594ea1b-56c3-45ac-87d4-56dd25e35e58.png)
 <br><small>_The Chocolatey Layers of Progressive Enhancement_</small>
@@ -41,19 +41,21 @@ Voor deze opdracht doorloop je alle fases van de DLC [analyseren](#analyseren), 
 
 ### Analyseren
 
-In de analysefase kies je een User Story waar je aan gaat werken en bekijk je hoe het posten van data werkt met de REST-API. 
+In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren. Je kiest een _user story_ waar je aan gaat werken en onderzoekt hoe het posten van data werkt met de REST-API. 
 
 #### Sprintplanning
-1. Lees de instructies van deze leertaak zorgvuldig door.
-2. Bekijk de verschillende fases van de DLC en wat je per fase gaat doen.
+1. Lees de instructies van deze leertaak zorgvuldig door
+2. Bekijk de verschillende fases van de DLC en wat je per fase gaat doen
 3. Bekijk de planning van [sprint 9](https://programma.fdnd.nl/data-driven-web/the-web-is-for-everyone) en wat je per week gaat doen
 4. Bespreek wat je aan werk verwacht en maak aantekening. (wat komt je bekend voor, wat heb je al vaker gedaan of wat lijkt je lastig)
+5. Neem de leervraag uit sprint 8 over en bedenk hoe je daar de komende 3 weken aan kan werken
 
-#### User Stories
-Kies een user story, met het label **sprint-9**, uit de backlog van het project waar je aan gaat werken. De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
+#### UsersStories
+Kies een _user story_ met het label **sprint-9** uit de backlog van het project waar je aan gaat werken. 
+De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
 
 #### REST-API
-Bekijk in de documentatie van de API of er voor de User Story een POST endpoint is en hoe die werkt.
+Bekijk in de documentatie van de API of er voor de_user story_ een POST endpoint is en hoe die werkt.
 
 ### Bronnen analyseerfase
 
@@ -66,7 +68,7 @@ In de ontwerpfase ga je eerst bedenken en schetsen wat je gaat maken. Voor deze 
 <br>Eerst ontwerp en bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. 
 
 #### Wireflow
-Teken de _core-functionalty_ van de _User Story_ in een wireflow. Zorg dat je de verschillende states van het formulier, het versturen van data, een _succes state_ en mogelijke _errors_ ook tekent. 
+Teken de _core-functionalty_ van de _user story_ in een wireflow. Zorg dat je de verschillende states van het formulier, het versturen van data, een _succes state_ en mogelijke _errors_ ook tekent. 
 
 #### Breakdown
 Maak een breakdown-schets waarin je de juiste HTML formulier-elementen die je nodig hebt beschrijft en pseudeo-code voor wat er server-side in NodeJS gebeurt. 
@@ -111,7 +113,7 @@ Als je helemaal klaar bent en alles lokaal werkt ga je verder met het publiceren
 
 het web is geen gecontroleerde (programmeer) omgeving, je kan er gerust van uit gaan dat niemand precies hetzelfde te zien krijgt als wat jij in je browser ziet. Er zijn technische beperkingen, zoals afmetingen van de browser, grootte van het apparaat, manier van interactie, kwaliteit van de hardware, kwaliteit van het netwerk en er zijn mensen, allemaal verschillende mensen ...
 
-In de testfase test je website in verschillende browsere en verschillende _devices_.
+In de testfase test je website in verschillende browsers en devices.
 
 Gebruik [caniuse.com](https://caniuse.com), [html5test.com](https://html5test.com), [css3test.com](http://css3test.com) en [kangax.github.io/compat-table/es6/](https://kangax.github.io/compat-table/es6/) om je code te testen en te achterhalen welke technieken browsers ondersteunen. 
 
