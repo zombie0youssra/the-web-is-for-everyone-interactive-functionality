@@ -15,7 +15,7 @@ Bij deze leertaak hoort de deeltaak:
 
 ## Doel van deze opdracht
 
-Tim Berners-Lee, de uitvinder van het internet zei: "The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect."
+Tim Berners-Lee, de uitvinder van het internet zei: "_The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect._"
 
 Één van de mooiste [principes](https://www.w3.org/DesignIssues/Principles.html) van het web is dat iedereen met een computer en een browser het web kan gebruik. [Het web is voor iedereen](https://www.youtube.com/watch?v=UMNFehJIi0E). 
 
