@@ -91,6 +91,7 @@ Progressive enhancement is een _(coding) strategy_ waarmee je er voor kan zorgen
 
 ### Bronnen bouwfase
 
+* [JavaScript Fetch API Ultimate Guide](https://blog.webdevsimplified.com/2022-01/js-fetch-api/)
 * [Understanding Progressive Enhancement](https://alistapart.com/article/understandingprogressiveenhancement/)
 * [The power of progressive enhancement](https://archive.hankchizljaw.com/wrote/the-power-of-progressive-enhancement/)
 <!-- * [Progressive Enhancement and Data Visualizations](https://css-tricks.com/progressive-enhancement-data-visualizations/) -->
@@ -130,6 +131,10 @@ Voor deze leertaak gelden de gedragscriteria:
 
 Deze opdracht is done als:
 
-- [ ] 
-
+- [ ] Je hebt een interactieve functionaliteit ontworpen en gemaakt met Node, Express en EJS en een REST API
+- [ ] Je website is online gepubliceerd
+- [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle en je hebt je proces bijgehouden in de Wiki
+- [ ] Je hebt je werk getest in verschillende browsers en devices en de test gedocumenteerd in je wiki
+- [ ] Je hebt comments in je Node-code waarmee de code is uitgelegd
+- [ ] Je hebt in de Readme bij 'Kenmerken' uitgelegd wat Progressive Enhancement is en hoe je dit hebt toegepast
 
