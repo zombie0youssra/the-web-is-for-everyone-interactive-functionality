@@ -7,7 +7,7 @@ Ontwerp en maak voor een opdrachtgever een interactieve toepassing die voor iede
 
 Deze leertaak hoort bij sprint 9 "The Web is for Everyone". Dit is een leertaak die je individueel uitvoert voor een opdrachtgever.
 
-In het college S09W1-01-Sprintplanning-the-web-is-for-everyone wordt de opdracht uitgelegd.
+In het college S09W1-01-Sprintplanning-The-Web-Is-For-Everyone wordt de opdracht uitgelegd.
 
 Bij deze leertaak hoort de deeltaak:
 - [Activity Diagram](https://github.com/fdnd-task/the-web-is-for-everyone-activity-diagram)
