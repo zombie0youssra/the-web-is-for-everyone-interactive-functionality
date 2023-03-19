@@ -65,7 +65,7 @@ In de ontwerpfase ga je eerst bedenken en schetsen wat je gaat maken. Voor deze 
 Teken de _core-functionalty_ van de _User Story_ in een wireflow. Zorg dat je de verschillende states van het formulier, het versturen van data, een _succes state_ en mogelijke _errors_ ook tekent. 
 
 #### Breakdown
-Maak een breakdown-schets waarin je de juiste HTML formulier-elementen die je nodig hebt beschrijft en pseudeo-code voor wat er in NodeJS gebeurt op de server. 
+Maak een breakdown-schets waarin je de juiste HTML formulier-elementen die je nodig hebt beschrijft en pseudeo-code voor wat er server-side in NodeJS gebeurt. 
 
 ### Bronnen ontwerpfase
 
