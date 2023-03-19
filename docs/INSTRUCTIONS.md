@@ -36,8 +36,7 @@ Ontwerp en maak een functionaliteit voor je opdrachtgever op basis van een _user
 3. Client-side scripting: Tot slot ga je JavaScript (en CSS) toevoegen om de User Experience te verbeteren.
 
 ![image](https://user-images.githubusercontent.com/1391509/226204781-5594ea1b-56c3-45ac-87d4-56dd25e35e58.png)
-
-<small>_The Chocolatey Layers of Progressive Enhancement_</small>
+<br><small>_The Chocolatey Layers of Progressive Enhancement_</small>
 
 
 Voor deze opdracht doorloop je alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
