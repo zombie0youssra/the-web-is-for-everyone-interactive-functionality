@@ -21,7 +21,7 @@ Tim Berners-Lee, de uitvinder van het internet zei: "The power of the Web is in 
 
 Maar het web is geen gecontroleerde (programmeer) omgeving, je kan er gerust van uit gaan dat niemand precies hetzelfde te zien krijgt als wat jij in je browser ziet. Er zijn technische beperkingen, zoals afmetingen van de browser, grootte van het apparaat, manier van interactie, kwaliteit van de hardware, kwaliteit van het netwerk en er zijn mensen, allemaal verschillende mensen ...
 
-Het doel van deze opdracht is te leren hoe je een interactieve functionalteit kan ontwerpen en maken met behulp van _Progressive Enhancement_ en _Feature Detection_ zodat de website het altijd doet.
+Het doel van deze opdracht is te leren hoe je een interactieve functionalteit kan ontwerpen en maken met behulp van _Progressive Enhancement_ zodat de website het altijd doet.
 
 
 
@@ -44,6 +44,12 @@ Voor deze opdracht doorloop je alle fases van de DLC [analyseren](#analyseren), 
 ### Analyseren
 
 In de analysefase kies je een User Story waar je aan gaat werken en bekijk je hoe het posten van data werkt met de REST-API. 
+
+#### Sprintplanning
+1. Lees de instructies van deze leertaak zorgvuldig door.
+2. Bekijk de verschillende fases van de DLC en wat je per fase gaat doen.
+3. Bekijk de planning van sprint 9 op [programma.fdnd.nl](https://programma.fdnd.nl/data-driven-web/the-web-is-for-everyone) en wat je per week gaat doen
+4. Bespreek wat je aan werk verwacht en maak aantekening. (wat komt je bekend voor, wat heb je al vaker gedaan of wat lijkt je lastig)
 
 #### User Stories
 Kies een user story, met het label **sprint-9**, uit de backlog van het project waar je aan gaat werken. De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
