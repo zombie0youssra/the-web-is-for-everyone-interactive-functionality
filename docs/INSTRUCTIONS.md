@@ -48,7 +48,7 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 2. Bekijk de verschillende fases van de DLC en wat je per fase gaat doen
 3. Bekijk de planning van [sprint 9](https://programma.fdnd.nl/data-driven-web/the-web-is-for-everyone) en wat je per week gaat doen
 4. Bespreek wat je aan werk verwacht en maak aantekeningen. (wat komt je bekend voor, wat heb je al vaker gedaan of wat lijkt je lastig)
-5. Neem de leervraag uit sprint 8 over en bedenk hoe je daar de komende 3 weken aan kan werken
+5. Neem ook de leervraag uit sprint 8 over en bedenk hoe je daar de komende 3 weken aan kan werken
 
 #### UsersStories
 Kies een _user story_ met het label **sprint-9** uit de backlog van het project waar je aan gaat werken. 
