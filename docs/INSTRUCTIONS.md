@@ -27,9 +27,7 @@ Het doel van deze opdracht is te leren hoe je een interactieve functionalteit ka
 
 ## Werkwijze
 
-Ontwerp en maak een functionaliteit voor je opdrachtgever op basis van een _user story_. De _user story_ voor sprint 9 gaat over het posten van data met behulp van de REST-API. Je bouwt je website in 3 lagen, volgens het principe van _Progressive Enhancement_.
-
-[Progressive enhancement](https://briefs.video/videos/is-progressive-enhancement-dead-yet/) is een _(coding) strategy_ waarmee je er voor kan zorgen dat je website het altijd doet. 
+Ontwerp en maak een functionaliteit voor je opdrachtgever op basis van een _user story_. De _user story_ voor sprint 9 gaat over het posten van data met behulp van de REST-API. Je bouwt je website in 3 lagen, volgens het principe van _Progressive Enhancement_. [Progressive enhancement](https://briefs.video/videos/is-progressive-enhancement-dead-yet/) is een _(coding) strategy_ waarmee je er voor kan zorgen dat je website het altijd doet. 
 
 1. Content: Eerst bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. 
 2. Presentation: Daarna voeg je CSS toe voor feedback voor de gebruiker en om de huisstijl toe te passen.
