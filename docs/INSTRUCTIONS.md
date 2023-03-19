@@ -27,7 +27,8 @@ Het doel van deze opdracht is te leren hoe je een interactieve functionalteit ka
 
 ## Werkwijze
 
-Ontwerp en maak een functionaliteit voor je opdrachtgever op basis van een _user story_. De _user story_ voor sprint 9 gaat over het posten van data met behulp van de REST-API. Je bouwt je website in 3 lagen, volgens het principe van _Progressive Enhancement_. [Progressive enhancement](https://briefs.video/videos/is-progressive-enhancement-dead-yet/) is een _(coding) strategy_ waarmee je er voor kan zorgen dat je website het altijd doet. 
+Ontwerp en maak een functionaliteit voor je opdrachtgever op basis van een _user story_. De _user story_ voor sprint 9 gaat over het posten van data met behulp van de REST-API. Je bouwt je website in 3 lagen, volgens het principe van _Progressive Enhancement_. 
+<br>[Progressive enhancement](https://briefs.video/videos/is-progressive-enhancement-dead-yet/) is een _(coding) strategy_ waarmee je er voor kan zorgen dat je website het altijd doet. 
 
 1. Content: Eerst bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. 
 2. Presentation: Daarna voeg je CSS toe voor feedback voor de gebruiker en om de huisstijl toe te passen.
@@ -57,7 +58,8 @@ Bekijk in de documentatie van de API of er voor de User Story een POST endpoint 
 
 ### Ontwerpen
 
-In de ontwerpfase ga je eerst bedenken en schetsen wat je gaat maken. Voor deze opdracht doorloop je meerdere keren de DLC omdat je de functionaliteit in 3 lagen gaat opbouwen. Je gaat dan ook meerdere keren schetsen. Eerst ontwerp en bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. 
+In de ontwerpfase ga je eerst bedenken en schetsen wat je gaat maken. Voor deze opdracht doorloop je meerdere keren de DLC omdat je de functionaliteit in 3 lagen gaat opbouwen, volgens het principe van _Progressive Enhancement_. Je gaat dan ook meerdere keren schetsen. 
+<br>Eerst ontwerp en bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. 
 
 #### Wireflow
 Teken de _core-functionalty_ van de _User Story_ in een wireflow. Zorg dat je de verschillende states van het formulier, het versturen van data, een _succes state_ en mogelijke _errors_ ook tekent. 
