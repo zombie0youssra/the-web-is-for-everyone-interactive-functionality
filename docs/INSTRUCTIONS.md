@@ -53,7 +53,7 @@ In de analysefase kies je een User Story waar je aan gaat werken en bekijk je ho
 Kies een user story, met het label **sprint-9**, uit de backlog van het project waar je aan gaat werken. De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
 
 #### REST-API
-Bekijk in de documentatie van de API of er voor de User Story een POST endpoint is en hoe je die werkt.
+Bekijk in de documentatie van de API of er voor de User Story een POST endpoint is en hoe die werkt.
 
 ### Bronnen analyseerfase
 
