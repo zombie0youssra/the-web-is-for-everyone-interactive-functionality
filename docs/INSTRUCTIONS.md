@@ -49,7 +49,7 @@ In de analysefase kies je een User Story waar je aan gaat werken en bekijk je ho
 #### User Stories
 Kies een user story, met het label **sprint-9**, uit de backlog van het project waar je aan gaat werken. De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
 
-#### REST_API
+#### REST-API
 Bekijk in de documentatie van de API of er voor de User Story een POST endpoint is en hoe je die werkt.
 
 ### Bronnen analyseerfase
@@ -59,7 +59,7 @@ Bekijk in de documentatie van de API of er voor de User Story een POST endpoint 
 
 ### Ontwerpen
 
-In de ontwerpfase ga je eerst schetsen wat je gaat maken. Voor deze opdracht doorloop meerdere keren de DLC omdat je de functionaliteit in 3 lagen gaat opbouwen. Je gaat dan ook meerdere keren schetsen. Eerst ontwerp en bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. 
+In de ontwerpfase ga je eerst bedenken en schetsen wat je gaat maken. Voor deze opdracht doorloop je meerdere keren de DLC omdat je de functionaliteit in 3 lagen gaat opbouwen. Je gaat dan ook meerdere keren schetsen. Eerst ontwerp en bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. 
 
 #### Wireflow
 Teken de _core-functionalty_ van de _User Story_ in een wireflow. Zorg dat je de verschillende states van het formulier, het versturen van data, een _succes state_ en mogelijke _errors_ ook tekent. 
