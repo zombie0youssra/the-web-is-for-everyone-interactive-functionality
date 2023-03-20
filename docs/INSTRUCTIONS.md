@@ -137,7 +137,7 @@ Voor deze leertaak gelden de gedragscriteria:
 
 Deze opdracht is done als:
 
-- [ ] Je hebt een interactieve functionaliteit ontworpen en gemaakt met Node, Express en EJS en een REST API
+- [ ] Je hebt een interactieve functionaliteit ontworpen en gemaakt met Node, Express en EJS en een REST API en client-side JS, CSS en HTML
 - [ ] Je website is online gepubliceerd
 - [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle en je hebt je proces bijgehouden in de Wiki
 - [ ] Je hebt je werk getest in verschillende browsers en devices en de test gedocumenteerd in je wiki
