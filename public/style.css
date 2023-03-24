@@ -190,6 +190,11 @@ p{
     gap: 2em;
 }
 
+.filter-container button{
+    background-color:var(--background-color);
+    border: none;
+}
+
 .filter-container i{
     font-size: 24px;
     color: var(--text-color);
