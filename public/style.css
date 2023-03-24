@@ -197,15 +197,15 @@ p{
 
 
 .method-container{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-gap: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
 }
 
 .method-card{
-height: 20em;
-width: auto;
+    height: 20em;
+    width: auto;
 }
 
 .method-card a {
@@ -214,8 +214,8 @@ width: auto;
 }
 
 .method-img{
-height: 15em;
-width: auto;
+    height: 15em;
+    width: auto;
 }
 
 
@@ -232,17 +232,31 @@ width: auto;
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
-    margin-left: -2em;
+    margin-left: -2.5em;
 }
 
 .method-categories li {
     background-color: var(--interactive-el-color);
-    width: 9em;
+    width: 10em;
     height: auto;
+    font-size: 17px;
+    font-family: var(--rigid);
 }
 
 .method-info-text{
     width: 70%;
+}
+
+.like-button{
+    font-family: var(--rigid);
+    font-size: 16px;
+    background-color: var(--interactive-el-color);
+    border: none;
+}
+
+.like-button:hover{
+    background-color:var(--text-color);
+    color: var(--grey-colors-03);
 }
 
 

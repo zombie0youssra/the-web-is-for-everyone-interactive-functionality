@@ -23,6 +23,12 @@ app.get("/", (request, response) => {
   response.render("index");
 });
 
+// profile
+
+app.get("/profile", (request, response) => {
+  response.render("profile");
+});
+
 // overzichtspagina
 app.get("/overzichtspagina", (request, response) => {
   console.log(request.query.methods);
@@ -66,3 +72,13 @@ async function fetchJson(url) {
 }
 
 // post json
+
+export async function postJson(url, body) {
+  return await fetch(url, {
+    method: "post",
+    body: JSON.stringify(body),
+    headers: { "Content-Type": "application/json" },
+  })
+    .then((response) => response.json())
+    .catch((error) => error);
+}
