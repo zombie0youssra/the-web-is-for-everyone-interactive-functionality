@@ -249,7 +249,8 @@ p{
 }
 
 .method-info-text{
-    width: 70%;
+    margin-top: 2em;
+    width: 80%;
 }
 
 .like-button{

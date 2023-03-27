@@ -8,14 +8,21 @@
         <ul>
             <li><i class="fa-solid fa-sitemap"></i> organiseren </li>
             <li><i class="fa-solid fa-users"></i> leren over anderen </li>
-            <li><i class="fa-solid fa-hourglass-half"></i> 5-10 minuten </li>
-            <li><i class="fa-solid fa-pen-to-square"></i> papier en pen </li>
+            <li><i class="fa-solid fa-hourglass-half"></i> <%= method.duration %></li>
+            <li><i class="fa-solid fa-pen-to-square"></i> <%= method.material %> </li>
         </ul>
 
         </div>
         <div class="method-info-text">
             <%- method.description.html %>
+             <div class="method-steps">
+               <% method.steps.forEach(step => { %>
+                <h3><%= step.title %></h3>
+                 <%- step.description.html %>
+                <% }) %>    
+             </div>
         </div>
+
 
         <section class="carousel">
     
