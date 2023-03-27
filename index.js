@@ -43,7 +43,7 @@ app.get("/overzichtspagina", (request, response) => {
 
 app.get("/detailpagina/:slug", (request, response) => {
   console.log(request.query.methods);
-  let detailPageUrl = url + "method/" + request.params.slug;
+  let detailPageUrl = url + "/method/" + request.params.slug;
   const id = request.query.id;
   console.log(id);
 

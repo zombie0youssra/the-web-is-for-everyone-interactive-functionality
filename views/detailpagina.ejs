@@ -1,7 +1,7 @@
 <%- include('./head') %>
 
 <main>
-    <section><h1>detailpagina</h1></section>
+    <section><h1><%= method.title %></h1></section>
 
     <section class="method-info">
         <div class="method-categories">
@@ -14,7 +14,7 @@
 
         </div>
         <div class="method-info-text">
-        
+            <%- method.description.html %>
         </div>
 
         <section class="carousel">
