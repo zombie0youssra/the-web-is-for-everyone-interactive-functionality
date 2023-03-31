@@ -54,7 +54,7 @@ app.get("/detailpagina/:slug", (request, response) => {
 
 // post detailpagina
 
-app.post("/form", (request, response) => {
+app.post("/detailpagina", (request, response) => {
   const baseurl = "https://api.visualthinking.fdnd.nl/api/v1/";
   const url = `${baseurl}comments`;
 
