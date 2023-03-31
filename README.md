@@ -32,7 +32,7 @@
 - goodnotes
 - visuel studio code
 
-### gerbuikte technieken 🍟
+### gebruikte technieken 🍟
 - ejs
 - javascript
 - node.js
