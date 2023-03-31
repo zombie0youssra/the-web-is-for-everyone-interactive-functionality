@@ -70,7 +70,7 @@ app.post("/detailpagina", (request, response) => {
       const errormessage = `${data.message}: Werkt niet:(`;
       const newdata = { error: errormessage, values: newComment };
 
-      response.render("form", newdata);
+      response.render("detailpagina", newdata);
     }
   });
 });
