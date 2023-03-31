@@ -52,6 +52,29 @@ app.get("/detailpagina/:slug", (request, response) => {
   });
 });
 
+// post detailpagina
+
+app.post("/form", (request, response) => {
+  const baseurl = "https://api.visualthinking.fdnd.nl/api/v1/";
+  const url = `${baseurl}comments`;
+
+  postJson(url, request.body).then((data) => {
+    let newComment = { ...request.body };
+
+    if (data.success) {
+      response.redirect("/?memberPosted=true");
+      // TODO: squad meegeven, message meegeven
+      // TODO: Toast meegeven aan de homepagina
+    } else {
+      // response.redirect('/new/?memberPosted=false')
+      const errormessage = `${data.message}: Werkt niet:(`;
+      const newdata = { error: errormessage, values: newComment };
+
+      response.render("form", newdata);
+    }
+  });
+});
+
 // Stel het poortnummer in waar express op gaat luisteren
 app.set("port", process.env.PORT || 8000);
 
