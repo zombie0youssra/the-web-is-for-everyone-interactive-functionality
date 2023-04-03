@@ -13,6 +13,10 @@ const url = "https://api.visualthinking.fdnd.nl/api/v1";
 app.set("view engine", "ejs");
 app.set("views", "./views");
 
+// Stel afhandeling van formulieren inzx
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 // Gebruik de map 'public' voor statische resources
 app.use(express.static("public"));
 
@@ -58,17 +62,25 @@ app.post("/detailpagina/:slug", (request, response) => {
   const baseurl = "https://api.visualthinking.fdnd.nl/api/v1/";
   const url = `${baseurl}comments`;
 
+  console.log("versuurd:");
+  console.log(request.body);
+
   postJson(url, request.body).then((data) => {
     let newComment = { ...request.body };
-
+    console.log("ontvangen:");
+    console.log(data);
     if (data.success) {
-      response.redirect("/method?Posted=true");
+      response.redirect(
+        "/detailpagina/" + request.params.slug + "?methodPosted=true"
+      );
     } else {
-      response.redirect("/new/?methodPosted=false");
-      const errormessage = `${data.message}: Werkt niet:(`;
-      const newdata = { error: errormessage, values: newComment };
+      response.redirect(
+        "/detailpagina/" + request.params.slug + "?methodPosted=false"
+      );
+      // const errormessage = `${data.message}: Werkt niet:(`;
+      // const newdata = { error: errormessage, values: newComment };
 
-      response.render("detailpagina", newdata);
+      // response.render("detailpagina/" + request.params.slug, newdata);
     }
   });
 });

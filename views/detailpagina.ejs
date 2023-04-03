@@ -24,7 +24,7 @@
         </div>
 
         <!-- test -->
-        <form action="detailpagina.ejs" method="post">
+        <form action="/detailpagina/<%= method.slug %>" method="post">
             <% if(locals.error !==undefined){ %>
                 <p class="message">
                     <%= error %>
@@ -32,7 +32,7 @@
                 <% } %>
 
                     <fieldset>
-                        <legend><span></span>Comments hier pls:)</legend>
+                        <h3>comment</h3>
 
                         <label for="author">Naam</label>
                         <input required type="text" name="author" id="author" placeholder="..." />

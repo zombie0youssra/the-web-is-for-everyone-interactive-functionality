@@ -81,6 +81,10 @@ h2{
     font-size: 20px;
 }
 
+h3{
+    font-family: var(--rigid);
+    font-size: 18px;
+}
 
 
 
@@ -251,6 +255,20 @@ p{
 .method-info-text{
     margin-top: 2em;
     width: 80%;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    border:none;
+    border-radius: 1em;
+    background-color:var(--interactive-el-color);
+}
+
+fieldset label{
+    font-family: var(--rigid);
 }
 
 
