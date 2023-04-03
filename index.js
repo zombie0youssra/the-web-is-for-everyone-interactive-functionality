@@ -62,11 +62,9 @@ app.post("/detailpagina/:slug", (request, response) => {
     let newComment = { ...request.body };
 
     if (data.success) {
-      response.redirect("/?memberPosted=true");
-      // TODO: squad meegeven, message meegeven
-      // TODO: Toast meegeven aan de homepagina
+      response.redirect("/method?Posted=true");
     } else {
-      // response.redirect('/new/?memberPosted=false')
+      response.redirect("/new/?methodPosted=false");
       const errormessage = `${data.message}: Werkt niet:(`;
       const newdata = { error: errormessage, values: newComment };
 
