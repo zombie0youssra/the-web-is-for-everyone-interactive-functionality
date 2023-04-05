@@ -3,6 +3,7 @@
 # Visual Thinking
 ## Interactive functionality
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
+<img width="939" alt="image" src="https://user-images.githubusercontent.com/112857270/230019901-bb1112ca-01a2-4dfe-8855-e7739b4d678c.png">
 
 ## Inhoudsopgave
 
