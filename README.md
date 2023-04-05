@@ -37,7 +37,7 @@
 - express
 - css
 
-### progressive enhancment ✨
+### progressive enhancement ✨
 
 
 
@@ -48,12 +48,15 @@
 2. Clone of download deze respository.
 3. Open hem in je `code-editor`.
 4. open de `terminal` en type `npm install`.
-5. Daarna door gerbruik van `npm start` krijg je een localhost link waar je de code live ziet.
-6. Live zetten van je project kan met behulp van cyclic.
+5. Daarna door gerbruik van `npm start` krijg je een localhost link waar je de code live 
+6. gebruik gitignore voor de modules.
+7. Live zetten van je project kan met behulp van cyclic.
 
 
 
 ## Bronnen
+
+mijn bronnen zijn te vinden in mijn wiki
 
 ## Licentie
 
