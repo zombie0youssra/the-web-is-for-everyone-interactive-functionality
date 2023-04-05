@@ -21,9 +21,6 @@
 
 ## Gebruik
 <!--Bij Gebruik staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-- favorieten
-
-- filteren
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
@@ -40,8 +37,20 @@
 - express
 - css
 
+### progressive enhancment ✨
+
+
+
 ## Installatie
 <!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
+
+1. Om in de repository te werken en aanpassingen te maken moet je node.js downloaden versie: .
+2. Clone of download deze respository.
+3. Open hem in je `code-editor`.
+4. open de `terminal` en type `npm install`.
+5. Daarna door gerbruik van `npm start` krijg je een localhost link waar je de code live ziet.
+6. Live zetten van je project kan met behulp van cyclic.
+
 
 
 ## Bronnen
