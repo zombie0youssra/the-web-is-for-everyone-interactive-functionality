@@ -269,7 +269,15 @@ fieldset{
 
 fieldset label{
     font-family: var(--rigid);
+    margin-bottom: 0.5em;
 }
+
+.submit-button{
+    background-color:var(--interactive-el-color-var01);
+    border-radius: 1em;
+    border: solid var(--interactive-el-color-var03);
+}
+
 
 
 
