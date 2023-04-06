@@ -218,9 +218,17 @@ p{
     border:  solid var(--grey-colors-01);
 }
 
+.method-card:hover{
+    border:  solid var(--interactive-el-color-var02);
+}
+
 .method-card a {
     color: var(--text-color);
     text-decoration: none;
+}
+
+.method-card h2{
+   margin-left: 0.5em;
 }
 
 .method-img{
