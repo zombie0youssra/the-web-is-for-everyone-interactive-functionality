@@ -215,6 +215,7 @@ p{
 .method-card{
     height: 20em;
     width: auto;
+    border:  solid var(--grey-colors-01);
 }
 
 .method-card a {
@@ -256,28 +257,6 @@ p{
     margin-top: 2em;
     width: 80%;
 }
-
-fieldset{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 60%;
-    border:none;
-    border-radius: 1em;
-    background-color:var(--interactive-el-color);
-}
-
-fieldset label{
-    font-family: var(--rigid);
-    margin-bottom: 0.5em;
-}
-
-.submit-button{
-    background-color:var(--interactive-el-color-var01);
-    border-radius: 1em;
-    border: solid var(--interactive-el-color-var03);
-}
-
 
 
 

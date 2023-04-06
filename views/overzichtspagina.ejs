@@ -23,14 +23,18 @@
 
     <section class="method-container">
       <% methods.forEach(method=> { %>
-        <article class="method-card"> 
-            <a href="./detailpagina/<%= method.slug %>?id=<%= method.id %>"><h2><%= method.title %></h2></a>
-             <img class="method-img" src="<%= method.template?.url %>">
-          <% method.categories.forEach(categorie=> { %>
-           <!-- <div class="tags"><p> <%= categorie.title %></p></div> -->
+        <article class="method-card">
+          <a href="./detailpagina/<%= method.slug %>?id=<%= method.id %>">
+           <% if (method.template?.url) { %> 
+            <img class="method-img" src="<%= method.template?.url %>">
+           <% } else { %>
+            <img src="/placeholder.jfif" alt="Placeholder" />
+           <% } %>
+            <h2><%= method.title %></h2>
+         </a>
         </article> 
       <% }) %>
-      <% }) %>
+      
 
     </section>
 
