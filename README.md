@@ -25,31 +25,6 @@
 ik heb aan userstory 8 gewerkt. userstory 8 was:
 op het momment kan je een reactie plaatsen op de website en wordt die reactie ook opgeslagen in de api.
 
-### Post
-
-```// post detailpagina
-
-app.post("/detailpagina/:slug", (request, response) => {
-  const baseurl = "https://api.visualthinking.fdnd.nl/api/v1/";
-  const url = `${baseurl}comments`;
-
-  console.log("versuurd:");
-  console.log(request.body);
-
-  postJson(url, request.body).then((data) => {
-    let newComment = { ...request.body };
-    console.log("ontvangen:");
-    console.log(data);
-    if (data.success) {
-      response.redirect(
-        "/detailpagina/" + request.params.slug + "?methodPosted=true"
-      );
-    } else {
-      response.redirect(
-        "/detailpagina/" + request.params.slug + "?methodPosted=false"
-      );
-      ```
-
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
