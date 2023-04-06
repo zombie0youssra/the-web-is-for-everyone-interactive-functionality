@@ -21,6 +21,9 @@
 
 ## Gebruik
 <!--Bij Gebruik staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+<img width="594" alt="image" src="https://user-images.githubusercontent.com/112857270/230275899-d43ea2dc-2e28-4505-9b72-bb484e928c5b.png">
+ik heb aan userstory 8 gewerkt. userstory 8 was:
+op het momment kan je een reactie plaatsen op de website en wordt die ook opgeslagen door de api.
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
