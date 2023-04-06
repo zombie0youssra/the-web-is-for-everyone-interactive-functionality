@@ -41,6 +41,7 @@ op het momment kan je een reactie plaatsen op de website en wordt die reactie oo
 - css
 
 ### progressive enhancement ✨
+
 progressive enhancement is een code strategy waarmee je kan zorgen dat je website het altijd doet.
 
 progressive enhancement betekent dat je de essentiele content en functionaliteiten voor zo veel mogelijk gebruikers toegankelijk maakt die misschien niet super moderne device's of browsers hebben. Maar er ook nog steeds de beste experience mogelijk geven voor gebruikers met moderne browsers die wel meer geavenceerde code kunnen ondersteunen.
