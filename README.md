@@ -60,7 +60,6 @@ progressive enhancement betekent dat je de essentiele content en functionaliteit
 
 ## Bronnen
 
-mijn bronnen zijn te vinden in mijn wiki
 
 ## Licentie
 
