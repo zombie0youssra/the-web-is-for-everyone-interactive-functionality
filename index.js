@@ -61,8 +61,9 @@ app.get("/detailpagina/:slug", (request, response) => {
 app.post("/detailpagina/:slug", (request, response) => {
   const baseurl = "https://api.visualthinking.fdnd.nl/api/v1/";
   const url = `${baseurl}comments`;
+  const commentUrl = `${baseurl}comments` + "?id=" + request.query.id;
 
-  console.log("versuurd:");
+  console.log("verstuurd:");
   console.log(request.body);
 
   postJson(url, request.body).then((data) => {
