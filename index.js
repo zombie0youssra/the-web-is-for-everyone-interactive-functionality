@@ -46,13 +46,22 @@ app.get("/overzichtspagina", (request, response) => {
 // detailpagina
 
 app.get("/detailpagina/:slug", (request, response) => {
-  console.log(request.query.methods);
+  // console.log(request.query.methods);
   let detailPageUrl = url + "/method/" + request.params.slug;
+  let commentsPageUrl = url + "/comments/?id=" + request.query.id;
+  console.log(commentsPageUrl);
   const id = request.query.id;
-  console.log(id);
 
   fetchJson(detailPageUrl).then((data) => {
-    response.render("detailpagina", data);
+    fetchJson(commentsPageUrl).then((data2) => {
+      console.log(commentsPageUrl, data2);
+      const combinedData = {
+        method: data.method,
+        comments: data2.comments,
+      };
+      console.log(combinedData);
+      response.render("detailpagina", combinedData);
+    });
   });
 });
 

@@ -47,8 +47,19 @@
                     </fieldset>
         </form>
 
-    
-      
+        
+        
+        
+    </section>
+    <section class="comment-results">
+            <% comments.forEach(comment => { %>
+                <article>
+                <%= comment.author %>
+                <%= comment.text %>
+                
+                
+                </article>
+            <% }) %>
     </section>
 
 </main>
